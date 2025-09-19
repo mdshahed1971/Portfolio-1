@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/download.jfif" type="image/x-icon">
     <title>SA Portfolio</title>
    <!-- tailwind and daisyui start -->
  <script src="https://cdn.tailwindcss.com"></script>
@@ -53,10 +54,51 @@
 <!-- header start -->
 <header class="bg-[#151C26]">
 
-<!-- navbar -->
+<!-- navbar start -->
 
 
-
+<div class="navbar border-b  border-b-[#CC03F5]">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost text-white lg:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h8m-8 6h16" />
+        </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+         <li><a class="text-black font-medium text-base">Home</a></li>
+      <li><a class="text-black font-medium text-base">About</a></li>
+      <li><a class="text-black font-medium text-base">service</a></li>
+      <li><a class="text-black font-medium text-base">projects</a></li>
+      <li><a class="text-black font-medium text-base">contact</a></li>
+      </ul>
+    </div>
+    <a class="text-white lg:text-xl text-lg font-medium font-roboto ">SA Portfolio</a>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+      <li><a class="text-white font-medium text-base">Home</a></li>
+      <li><a class="text-white font-medium text-base">About</a></li>
+      <li><a class="text-white font-medium text-base">service</a></li>
+      <li><a class="text-white font-medium text-base">projects</a></li>
+      <li><a class="text-white font-medium text-base">contact</a></li>
+    </ul>
+  </div>
+  <div class="navbar-end">
+    <a class="text-white lg:text-lg text-base font-medium font-playfair md:px-5 md:py-3 px-3 py-[6px] border border-[#CC03F5] hover:bg-[#CC03F5] hover:text-white duration-200 cursor-pointer rounded-[5px]">Button</a>
+  </div>
+</div>
 
 
 
@@ -72,10 +114,10 @@
 <h2 class="font-playfair text-white lg:text-4xl md:text-3xl text-2xl font-semibold lg:mb-5 md:mb-4 mb-3"> <span class="lg:text-6xl md:text-5xl text-4xl font-bold italic text-[#CC03F5]">Hi, </span> <span class="font-playfair"> I’m Shahed Ahmed.</span><br> <span class="font-playfair">I build websites that load <br>faster than your coffee brews ☕. </span></h3>
  <p class="lg:text-lg text-base text-white font-medium font-playfair lg:mb-5 md:mb-4 mb-3">I don’t just design websites—I design first impressions. Turning <br>caffeine into code and ideas into reality. Ever wondered what <br>happens when creativity meets clean code? That’s where <br>I come in.</p>
  <div class="flex items-center gap-5">
- <a class="text-white lg:text-lg text-base font-medium font-playfair md:px-5 md:py-3 px-3 py-[6px] border border-white hover:bg-[#CC03F5] hover:text-white duration-500 cursor-pointer rounded-[5px]">Let's talk</a>
+ <a class="text-white lg:text-lg text-base font-medium font-playfair md:px-5 md:py-3 px-3 py-[6px] border border-[#CC03F5] hover:bg-[#CC03F5] hover:text-white duration-200 cursor-pointer rounded-[5px]">Let's talk</a>
 
 <div class="flex gap-3">
-    <i class="fa-brands fa-github lg:text-2xl text-xl bg-white hover:bg-[#CC03F5] text-black hover:text-white rounded-full lg:px-3 lg:py-2 px-2 py-1 cursor-pointer hover:scale-125 duration-200"></i>
+     <i class="fa-brands fa-github lg:text-2xl text-xl bg-white hover:bg-[#CC03F5] text-black hover:text-white rounded-full lg:px-3 lg:py-2 px-2 py-1 cursor-pointer hover:scale-125 duration-200"></i>
     <i class="fa-brands fa-facebook lg:text-2xl text-xl bg-white hover:bg-[#CC03F5] text-black hover:text-white rounded-full lg:px-3 lg:py-2 px-2 py-1 cursor-pointer hover:scale-125 duration-200"></i>
     <i class="fa-brands fa-linkedin lg:text-2xl text-xl bg-white hover:bg-[#CC03F5] text-black hover:text-white rounded-full lg:px-3 lg:py-2 px-2 py-1 cursor-pointer hover:scale-125 duration-200"></i>
 </div>
@@ -86,27 +128,9 @@
     <img src="./img/download__2_-removebg-preview.png" alt="" class="rounded-full">
 </div>
 </div>
+
 </section>
 <!-- banner end  -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!-- Personal vs Software start -->
@@ -125,7 +149,7 @@
 
 <div class="flex lg:flex-row flex-col justify-center gap-16">
 <!-- card 1 -->
-<div class="card border  px-1 lg:w-2/5  w-full bg-white/5 backdrop-blur-sm rounded-lg">
+<div class="card border border-white  px-1 lg:w-2/5  w-full bg-white/5 backdrop-blur-sm rounded-lg">
   <div class="card-body">
     <h2 class="card-title flex justify-between text-[#ffffff] font-playfair lg:text-3xl md:text-2xl text-lg leading-[40px] font-semibold">
       Random Company
@@ -155,7 +179,7 @@
     </p>
 
     <div class="card-actions flex items-center justify-between">
-      <a class="text-black lg:text-lg text-base font-medium font-playfair md:px-5 md:py-3 px-3 py-[6px] border border-black hover:bg-[#392A61] hover:text-white duration-200 cursor-pointer rounded-[5px]">Order Now</a>
+      <a class="text-white lg:text-lg text-base font-medium font-playfair md:px-5 md:py-3 px-3 py-[6px] border border-[#CC03F5] hover:bg-[#CC03F5] hover:text-white duration-200 cursor-pointer rounded-[5px]">Contact us</a>
       <a class="text-[#d4a96a] font-medium md:text-xl cursor-pointer text-base">Limited Edition</a>
     </div>
   </div>
@@ -163,11 +187,8 @@
 
 
 
-
-
-
 <!-- card 2 -->
-  <div class="card border px-1 lg:w-2/5 w-full bg-white/5 backdrop-blur-sm rounded-lg">
+  <div class="card border border-white px-1 lg:w-2/5 w-full bg-white/5 backdrop-blur-sm rounded-lg">
    
     <div class="card-body">
       <h2 class="card-title flex justify-between text-[#ffffff] font-playfair lg:text-3xl md:text-2xl text-xl leading-[40px] font-semibold">
@@ -187,18 +208,16 @@
 
 <p class="text-[#e9e5e0] md:mb-2 mb-1 md:text-base text-sm font-normal leading-[26px] italic"><i class="fa-solid fa-check text-orange-300 mr-2 text-xl"></i>Real-time updates, instant replies</p>
       <div class="card-actions flex items-center justify-between">
-        <a class="text-black lg:text-lg text-base font-medium font-playfair md:px-5 md:py-3 px-3 py-[6px] border border-black hover:bg-[#392A61] hover:text-white duration-200 cursor-pointer rounded-[5px]">Order Now</a>
+        <a class="text-white lg:text-lg text-base font-medium font-playfair md:px-5 md:py-3 px-3 py-[6px] border border-[#CC03F5] hover:bg-[#CC03F5] hover:text-white duration-200 cursor-pointer rounded-[5px]">Let's Chat</a>
         <a class="text-[#d4a96a] font-medium md:text-xl cursor-pointer text-base">Best Value</a>
       </div>
     </div>
   </div>
-
-
 </div>
-
 
 </section>
 <!-- Personal vs Software end  -->
+
 
 
 <!-- Services start -->
@@ -210,7 +229,7 @@
 
 
 
-<div class="flex justify-center lg:flex-row flex-col lg:gap-10 md:gap-6 gap-4 text-center lg:px-10 lg:py-7">
+<div class="flex justify-center lg:flex-row flex-col lg:gap-10 md:gap-6 gap-4 text-center lg:px-10 lg:py-7 lg:mb-10 md:mb-7 mb-4">
 <!-- card 1 -->
 <div class="bg-[#F9FAFB] hover:bg-[#DBEAFE] duration-200 rounded-lg lg:px-10 lg:py-5 md:px-7 md:py-4 px-4 py-3">
 <h3 class="text-[#2563EB] lg:text-3xl md:text-2xl text-xl font-playfair font-semibold lg:mb-3 md:mb-2 mb-1 ">Frontend Development</h3>
@@ -234,6 +253,18 @@
 <p class="text-[#4B5563] italic lg:text-lg md:text-base text-sm  lg:mb-2 mb-1">CI/CD Pipelines</p>
 <p class="text-[#4B5563] italic lg:text-lg md:text-base text-sm  lg:mb-2 mb-1">Scalable Architecture</p>
 </div>
+</div>
+
+
+<div class="flex flex-wrap justify-center gap-8">
+  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] duration-200 px-3 py-1 rounded-lg cursor-pointer">HTML</h4>
+  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] px-3 py-1 duration-200 rounded-lg cursor-pointer">CSS</h4>
+  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] px-3 py-1 duration-200 rounded-lg cursor-pointer">TAILWIND CSS</h4>
+  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] px-3 py-1 duration-200 rounded-lg cursor-pointer">DAISYUI</h4>
+  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] px-3 py-1 duration-200 rounded-lg cursor-pointer">JAVASCRIPT</h4>
+  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] px-3 py-1 duration-200 rounded-lg cursor-pointer">REACT</h4>
+  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] px-3 py-1 duration-200 rounded-lg cursor-pointer">NODE JS</h4>
+  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] px-3 py-1 duration-200 rounded-lg cursor-pointer">MONGODB</h4>
 </div>
 
 </section>
@@ -335,19 +366,46 @@
 <!-- my projects end -->
 
 
-<!-- Contact start -->
+<!-- Ready To Personalize Your Space start -->
 <section>
 
+<div class="flex justify-around lg:flex-row flex-col items-center lg:mb-10 md:mb-7 mb-4">
+<div>
+  <h3 class="text-white lg:text-2xl text-xl font-roboto font-medium lg:mb-5 md:mb-4 mb-3">Ready To Personalize Your Space?</h3>
+  <p class="text-white md:text-base text-sm font-normal italic text-base">Our service is for who believe in owing safe, clean, <br>and organized space. Who promise that enging with <br>what we make will help you declutter your life  </p>
+</div>
 
+<div>
+<form class="p-8 w-full max-w-2xl font-sans">
+        <!-- Name and Email fields in a single row -->
+        <div class="flex gap-4 mb-8">
+            <div class="flex-1 border-b border-l pl-2 border-[#CC03F5] pb-2">
+                <input type="text" id="name" placeholder="Name" class="w-full bg-transparent outline-none placeholder-white text-white">
+            </div>
+            <div class="flex-1 border-b border-l pl-2 border-[#CC03F5] pb-2">
+                <input type="email" id="email" placeholder="Email" class="w-full bg-transparent outline-none placeholder-white text-white">
+            </div>
+        </div>
 
+        <!-- Phone Number field -->
+        <div class="border-b border-[#CC03F5] border-l pl-2 pb-2 mb-8">
+            <input type="tel" id="phone" placeholder="Phone Number" class="w-full bg-transparent outline-none placeholder-white text-white">
+        </div>
 
+        <!-- "Anything else" text area -->
+        <div class="border-b border-[#CC03F5] border-l pl-2 pb-2">
+            <textarea id="message" placeholder="Anything we should know?" rows="1" class="w-full bg-transparent outline-none resize-none placeholder-white text-white"></textarea>
+        </div>
+    </form>
+    <div class="flex justify-around">
+    <a class="text-white lg:text-lg text-base font-medium font-playfair md:px-5 md:py-3 px-3 py-[6px] border border-[#CC03F5] hover:bg-[#CC03F5] hover:text-white duration-200 cursor-pointer rounded-[5px]">Submit</a>
+    </div>
+</div>
+</div>
 
-
-
-  
 </section>
 
-
+<!-- Ready To Personalize Your Space end -->
 
 
 
@@ -385,23 +443,23 @@
   </aside>
   <nav>
     <h4 class=" text-white font-semibold lg:text-lg text-base">Services</h6>
-    <a class="text-white text-sm font-medium">Branding</a>
-    <a class="text-white text-sm font-medium">Design</a>
-    <a class="text-white text-sm font-medium">Marketing</a>
-    <a class="text-white text-sm font-medium">Advertisement</a>
+    <a class="text-white text-sm font-medium cursor-pointer">Branding</a>
+    <a class="text-white text-sm font-medium cursor-pointer">Design</a>
+    <a class="text-white text-sm font-medium cursor-pointer">Marketing</a>
+    <a class="text-white text-sm font-medium cursor-pointer">Advertisement</a>
   </nav>
   <nav>
      <h4 class=" text-white font-semibold lg:text-lg text-base">Company</h6>
-    <a class="text-white text-sm font-medium">About us</a>
-    <a class="text-white text-sm font-medium">Contact</a>
-    <a class="text-white text-sm font-medium">Jobs</a>
-    <a class="text-white text-sm font-medium">Press kit</a>
+    <a class="text-white text-sm font-medium cursor-pointer">About us</a>
+    <a class="text-white text-sm font-medium cursor-pointer">Contact</a>
+    <a class="text-white text-sm font-medium cursor-pointer">Jobs</a>
+    <a class="text-white text-sm font-medium cursor-pointer">Press kit</a>
   </nav>
   <nav>
      <h4 class=" text-white font-semibold lg:text-lg text-base">Legal</h6>
-    <a class="text-white text-sm font-medium">Terms of use</a>
-    <a class="text-white text-sm font-medium">Privacy policy</a>
-    <a class="text-white text-sm font-medium">Cookie policy</a>
+    <a class="text-white text-sm font-medium cursor-pointer">Terms of use</a>
+    <a class="text-white text-sm font-medium cursor-pointer">Privacy policy</a>
+    <a class="text-white text-sm font-medium cursor-pointer">Cookie policy</a>
   </nav>
 </footer>
 
