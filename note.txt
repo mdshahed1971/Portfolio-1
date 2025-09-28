@@ -1,11 +1,4 @@
- Process, expertise, deliverables
- Friendly, simple, approachable
-
-
-
- <i class="fa-brands fa-github lg:text-2xl text-xl bg-white hover:bg-[#CC03F5] text-black hover:text-white rounded-full lg:px-3 lg:py-2 px-2 py-1 cursor-pointer hover:scale-125 duration-200"></i>
-    <i class="fa-brands fa-facebook lg:text-2xl text-xl bg-white hover:bg-[#CC03F5] text-black hover:text-white rounded-full lg:px-3 lg:py-2 px-2 py-1 cursor-pointer hover:scale-125 duration-200"></i>
-    <i class="fa-brands fa-linkedin lg:text-2xl text-xl bg-white hover:bg-[#CC03F5] text-black hover:text-white rounded-full lg:px-3 lg:py-2 px-2 py-1 cursor-pointer hover:scale-125 duration-200"></i>
+ 
 
 
 
@@ -18,17 +11,16 @@
 
 
 
-    
-<section class="">
 
-  <div class="flex justify-around items-center bg-[#131313]">
-<div>
-<h2 class="text-white lg:text-4xl md:text-3xl text-2xl font-medium lg:mb-5 md:mb-4 mb-3 font-poppins">Experience superior <br>skip tracing</h2>
-<p class="text-white italic md:text-base texts-sm lg:mb-5 md:mb-4 mb-3 ">150+ data points per search</p>
-<a class="text-white lg:text-lg text-base font-medium font-playfair md:px-5 md:py-3 px-3 py-[6px] border border-[#CC03F5] hover:bg-[#CC03F5] hover:text-white duration-200 cursor-pointer rounded-[5px]">Get started</a>
+
+
+<div class="flex flex-wrap justify-center gap-8">
+  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] duration-200 px-3 py-1 rounded-lg cursor-pointer">HTML</h4>
+  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] px-3 py-1 duration-200 rounded-lg cursor-pointer">CSS</h4>
+  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] px-3 py-1 duration-200 rounded-lg cursor-pointer">TAILWIND CSS</h4>
+  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] px-3 py-1 duration-200 rounded-lg cursor-pointer">DAISYUI</h4>
+  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] px-3 py-1 duration-200 rounded-lg cursor-pointer">JAVASCRIPT</h4>
+  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] px-3 py-1 duration-200 rounded-lg cursor-pointer">REACT</h4>
+  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] px-3 py-1 duration-200 rounded-lg cursor-pointer">NODE JS</h4>
+  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] px-3 py-1 duration-200 rounded-lg cursor-pointer">MONGODB</h4>
 </div>
-<div>
-<img src="./img/Screenshot 2025-09-21 233808.png" alt="">
-</div>
-</div>
-</section>
