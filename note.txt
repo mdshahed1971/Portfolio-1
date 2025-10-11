@@ -1,29 +1,54 @@
  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-wrap justify-center gap-8">
-  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] duration-200 px-3 py-1 rounded-lg cursor-pointer">HTML</h4>
-  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] px-3 py-1 duration-200 rounded-lg cursor-pointer">CSS</h4>
-  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] px-3 py-1 duration-200 rounded-lg cursor-pointer">TAILWIND CSS</h4>
-  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] px-3 py-1 duration-200 rounded-lg cursor-pointer">DAISYUI</h4>
-  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] px-3 py-1 duration-200 rounded-lg cursor-pointer">JAVASCRIPT</h4>
-  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] px-3 py-1 duration-200 rounded-lg cursor-pointer">REACT</h4>
-  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] px-3 py-1 duration-200 rounded-lg cursor-pointer">NODE JS</h4>
-  <h4 class="text-white font-medium text-lg border border-[#CC03F5] hover:bg-[#CC03F5] px-3 py-1 duration-200 rounded-lg cursor-pointer">MONGODB</h4>
+<!-- Services start -->
+<section class="bg-[#15192A] lg:mb-16 md:mb-9 mb-5">
+<div class="text-center lg:mb-5 md:mb-4 mb-3">
+  <h2 class="text-white font-playfair lg:text-4xl md:text-3xl text-2xl lg:mb-3 md:mb-2 mb-1 font-bold">Services</h2>
+  <p class="text-white italic lg:text-lg md:text-base text-sm font-medium">Smart services. Creative solutions. Professional results.</p>
 </div>
 
 
-<i class="fa-solid fa-location-dot"></i>
+
+<div class="flex justify-center lg:flex-row flex-col lg:gap-10 md:gap-6 gap-4 text-center lg:px-10 lg:py-7 lg:mb-10 md:mb-7 mb-4">
+<!-- card 1 -->
+<div class="bg-[#F9FAFB] hover:bg-[#DBEAFE] duration-200 rounded-lg lg:px-10 lg:py-5 md:px-7 md:py-4 px-4 py-3">
+<h3 class="text-[#2563EB] lg:text-3xl md:text-2xl text-xl font-playfair font-semibold lg:mb-3 md:mb-2 mb-1 ">Frontend Development</h3>
+<p class="text-[#4B5563] italic lg:text-lg md:text-base text-sm  lg:mb-2 mb-1">Modern React Architectures</p>
+<p class="text-[#4B5563] italic lg:text-lg md:text-base text-sm  lg:mb-2 mb-1">Performance Optimization</p>
+<p class="text-[#4B5563] italic lg:text-lg md:text-base text-sm  lg:mb-2 mb-1">Responsive & Interactive UIs</p>
+</div>
+
+<!-- card 2 -->
+<div class="bg-[#F9FAFB] hover:bg-[#DBEAFE] duration-200 rounded-lg lg:px-10 lg:py-5 md:px-7 md:py-4 px-4 py-3">
+<h3 class="text-[#2563EB] lg:text-3xl md:text-2xl text-xl font-playfair font-semibold lg:mb-3 md:mb-2 mb-1 ">Backend Development</h3>
+<p class="text-[#4B5563] italic lg:text-lg md:text-base text-sm  lg:mb-2 mb-1">API Design & Development</p>
+<p class="text-[#4B5563] italic lg:text-lg md:text-base text-sm  lg:mb-2 mb-1">Database Architecture</p>
+<p class="text-[#4B5563] italic lg:text-lg md:text-base text-sm  lg:mb-2 mb-1">Real-time Systems</p>
+</div>
+
+<!-- card 3 -->
+<div class="bg-[#F9FAFB] hover:bg-[#CCFBF1] duration-200 rounded-lg lg:px-12 lg:py-5 md:px-8 md:py-4 px-5 py-3">
+<h3 class="text-[#2563EB] lg:text-3xl md:text-2xl text-xl font-playfair font-semibold lg:mb-3 md:mb-2 mb-1 ">DevOps & Cloud</h3>
+<p class="text-[#4B5563] italic lg:text-lg md:text-base text-sm  lg:mb-2 mb-1">AWS Infrastructure</p>
+<p class="text-[#4B5563] italic lg:text-lg md:text-base text-sm  lg:mb-2 mb-1">CI/CD Pipelines</p>
+<p class="text-[#4B5563] italic lg:text-lg md:text-base text-sm  lg:mb-2 mb-1">Scalable Architecture</p>
+</div>
+</div>
+
+</section>
+<!-- Services end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
