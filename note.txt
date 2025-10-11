@@ -49,6 +49,19 @@
 
 
 
+<div class="lg:w-5/12 md:w-10/12 w-11/12">
+    <img src="./img/banner.png" alt="" class=" bg-[#14608D] rounded-3xl">
+</div>
+
+
+
+
+
+
+
+
+
+
 
 
 
